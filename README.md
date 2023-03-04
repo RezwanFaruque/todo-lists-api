@@ -19,3 +19,13 @@
 
 
 ## This project is build with Laravel 8^ and php7.4^
+
+
+
+## Test case
+    - There are two test case written for todolist 
+        1.Get all todo list with todotasks
+        2.Save todolist 
+
+    - To run test write in root directory command list 
+        php artisan test
