@@ -35,15 +35,15 @@ Route::group(['namespace' => 'Api'], function(){
 
     // todotasks lists apis
 
-    Route::get('/todotaks-lists','TodoTaskController@index')->name('todotask.lists');
+    Route::get('/todotask-lists','TodoTaskController@index')->name('todotask.lists');
 
-    Route::post('/todotaks/add','TodoTaskController@store')->name('todotask.store');
+    Route::post('/todotask/add','TodoTaskController@store')->name('todotask.store');
 
-    Route::get('/todotaks/{id}/details','TodoTaskController@details')->name('todotask.details');
+    Route::get('/todotask/{id}/details','TodoTaskController@details')->name('todotask.details');
 
-    Route::post('/todotaks/{id}/update','TodoTaskController@update')->name('todotask.update');
+    Route::post('/todotask/{id}/update','TodoTaskController@update')->name('todotask.update');
 
-    Route::delete('/todotaks/{id}/delete','TodoTaskController@delete')->name('todotask.delete');
+    Route::delete('/todotask/{id}/delete','TodoTaskController@delete')->name('todotask.delete');
 
 
 
